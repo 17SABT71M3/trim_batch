@@ -2,7 +2,9 @@ REM This code is no good on its own, it must be used as a function  in  a batch 
 @echo off
 REM Start of function
 REM delayed expansion MUST BE enabled ----> setlocal enabledelayedexpansion
-REM Function usage:-  call :trim " example input string zz " output_variable_name
+REM *input****
+REM *  example input string zz ******
+REM Function usage:-  call :trim "  example input string zz " output_variable_name
 :trim
 set trim_output=
 set /a token_number=0
