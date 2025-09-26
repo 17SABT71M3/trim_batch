@@ -17,3 +17,5 @@ if %trim_happen%==1 goto trim_begin
 for /f "tokens=* delims= " %%i in ("!trim_output!") do set "trim_output=%%i"
 set "%~2=!trim_output!"
 :trim_end
+REM *output****
+REM *example input string zz******
